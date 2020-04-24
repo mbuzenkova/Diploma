@@ -1,0 +1,1741 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: OpenSans;
+  overflow-x: hidden;
+}
+
+.visually-hidden {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url("https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans;
+  src: url("https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+.welcome {
+  background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/football_1920.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 1920px;
+  height: 960px;
+}
+
+.welcome:after {
+  content: "";
+  background-color: #0a0e34;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1920px;
+  height: 960px;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-logo {
+  display: block;
+  width: 190px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+}
+
+.first-title {
+  font-size: 90px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  width: 1535px;
+  line-height: 0.348;
+  text-align: left;
+  margin-top: 260px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.second-title {
+  font-size: 90px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  width: 1535px;
+  line-height: 1.111;
+  text-align: right;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.buttons {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Download_on_appstore {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 225px;
+  margin-left: 620px;
+  width: 310px;
+  height: 80px;
+  border-radius: 38px;
+  border: none;
+  background-color: #5e42b0;
+}
+
+.app_icon {
+  fill: #ffffff;
+  width: 50px;
+  height: 50px;
+  padding-left: 50px;
+}
+
+.app_text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 145px;
+  padding-right: 50px;
+}
+
+.download_on_the {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.app_store {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.Get_on_google_play {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 225px;
+  margin-right: 620px;
+  width: 310px;
+  height: 80px;
+  border-radius: 38px;
+  border: none;
+  background-color: #5e42b0;
+}
+
+.google_icon {
+  fill: #ffffff;
+  width: 50px;
+  height: 50px;
+  padding-left: 50px;
+}
+
+.google_text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 130px;
+  padding-right: 50px;
+}
+
+.get_it_on {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.google_play_ {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1920px;
+}
+
+.athlets_section {
+  position: relarive;
+  z-index: 8;
+}
+
+.footballer_img {
+  position: absolute;
+  top: 990px;
+  left: 375px;
+  z-index: 10;
+}
+
+.athlets_content {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.athlets {
+  font-size: 88px;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  color: #e7e7e7;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding-left: 1010px;
+  padding-right: 195px;
+}
+
+.athlets_header_group {
+  position: relative;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 1010px;
+  padding-right: 195px;
+}
+
+.athlets_item {
+  list-style-type: none;
+  position: relative;
+  z-index: 5;
+  width: 1920px;
+  box-sizing: border-box;
+}
+
+.athlets_item:after {
+  content: "";
+  background-color: #5e42b0;
+  opacity: 0.1;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1920px;
+}
+
+.athlets_item:first-child:after {
+  content: "";
+  background: none;
+  position: absolute;
+}
+
+.athlets_item:last-child:after {
+  content: "";
+  background-color: #5e42b0;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1920px;
+}
+
+.athlets_number {
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #000000;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.athlets_number:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 20px;
+  height: 5px;
+  border-radius: 5px;
+  background: #5e42b0;
+}
+
+.athlets_item:last-child .athlets_header_group .athlets_number:after {
+  background: #efefef;
+}
+
+.athlets_header {
+  font-size: 36px;
+  font-family: "Open Sans";
+  color: #c1c1c1;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.athlets_text {
+  position: relative;
+  z-index: 15;
+  display: block;
+  font-size: 20px;
+  font-family: "Open Sans";
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 1010px;
+  padding-right: 195px;
+}
+
+.athlets_item:last-child .athlets_text {
+  color: #ffffff;
+}
+
+.players_section {
+  position: relarive;
+  z-index: 8;
+}
+
+.basketballer_img {
+  position: absolute;
+  z-index: 10;
+  top: 1880px;
+  left: 810px;
+}
+
+.players_content {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 120px;
+}
+
+.players {
+  font-size: 88px;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  color: #e7e7e7;
+  font-weight: bold;
+  margin-bottom: 50px;
+  padding-left: 195px;
+  padding-right: 970px;
+}
+
+.players_header_group {
+  position: relative;
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 195px;
+  padding-right: 970px;
+}
+
+.players_item {
+  list-style-type: none;
+  position: relative;
+  z-index: 5;
+  width: 1920px;
+  box-sizing: border-box;
+}
+
+.players_item:after {
+  content: "";
+  background-color: #0a0e34;
+  opacity: 0.1;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1920px;
+}
+
+.players_item:first-child:after {
+  content: "";
+  background: none;
+  position: absolute;
+}
+
+.players_item:last-child:after {
+  content: "";
+  background-color: #0a0e34;
+  opacity: 1;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1920px;
+}
+
+.players_number {
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #000000;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.players_number:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 20px;
+  height: 5px;
+  border-radius: 5px;
+  border: none;
+  background: #5e42b0;
+}
+
+.players_item:last-child .players_header_group .players_number:after {
+  background: #efefef;
+}
+
+.players_item:last-child .players_header_group .players_number {
+  color: #5e42b0;
+}
+
+.players_header {
+  font-size: 36px;
+  font-family: "Open Sans";
+  color: #c1c1c1;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.players_text {
+  position: relative;
+  z-index: 15;
+  display: block;
+  font-size: 20px;
+  font-family: "Open Sans";
+  color: #000000;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  padding-left: 195px;
+  padding-right: 970px;
+}
+
+.players_item:last-child .players_text {
+  color: #ffffff;
+}
+
+.active_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.active_number {
+  display: block;
+  box-sizing: border-box;
+  background-color: #5e42b0;
+  position: absolute;
+  left: 876px;
+  top: 2980px;
+  width: 168px;
+  height: 155px;
+  z-index: 42;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.active_number_one {
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: #f5f6f7;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.437;
+}
+
+.active_number_one:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 25px;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: 70px;
+  background: #8f7bc8;
+}
+
+.active_img {
+  width: 50%;
+  overflow: hidden;
+}
+
+.active_content {
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 130px;
+}
+
+.active_header {
+  font-size: 80px;
+  font-family: "Open Sans";
+  color: #e7e7e7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.active_text {
+  display: block;
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: #000000;
+  padding-top: 120px;
+  width: 580px;
+}
+
+.contact_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.contact_number {
+  display: block;
+  box-sizing: border-box;
+  background-color: #5e42b0;
+  position: absolute;
+  left: 876px;
+  top: 3662px;
+  width: 168px;
+  height: 155px;
+  z-index: 42;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.contact_number_one {
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: #f5f6f7;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.437;
+}
+
+.contact_number_one:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: 70px;
+  background: #8f7bc8;
+}
+
+.contact_content {
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 130px;
+}
+
+.contact_header {
+  font-size: 80px;
+  font-family: "Open Sans";
+  color: #e7e7e7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.contact_text {
+  display: block;
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: #000000;
+  padding-top: 120px;
+  width: 580px;
+}
+
+.contact_img {
+  width: 50%;
+  overflow: hidden;
+}
+
+.work_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.work_number {
+  display: block;
+  box-sizing: border-box;
+  background-color: #5e42b0;
+  position: absolute;
+  left: 876px;
+  top: 4380px;
+  width: 168px;
+  height: 155px;
+  z-index: 42;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.work_number_one {
+  position: relative;
+  padding-bottom: 5px;
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: #f5f6f7;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.437;
+}
+
+.work_number_one:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: 0;
+  width: 30px;
+  height: 5px;
+  border-radius: 5px;
+  margin-left: 70px;
+  background: #8f7bc8;
+}
+
+.work_img {
+  width: 50%;
+  overflow: hidden;
+}
+
+.work_content {
+  box-sizing: border-box;
+  width: 50%;
+  padding-left: 130px;
+}
+
+.work_header {
+  font-size: 80px;
+  font-family: "Open Sans";
+  color: #e7e7e7;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.work_text {
+  display: block;
+  font-size: 24px;
+  font-family: "Open Sans";
+  color: #000000;
+  padding-top: 120px;
+  width: 580px;
+}
+
+.footer {
+  background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/game_1920.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 1920px;
+  height: 960px;
+}
+
+.footer:after {
+  content: "";
+  background-color: #0a0e34;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 1920px;
+  height: 960px;
+}
+
+.footer_container {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 950px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 225px;
+}
+
+.footer-logo {
+  display: block;
+  box-sizing: border-box;
+  width: 130px;
+  height: 130px;
+  background-color: #5e42b0;
+  background-size: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  border-radius: 30px;
+  border: none;
+  padding: 30px;
+}
+
+.footer_content {
+  display: block;
+  box-sizing: border-box;
+  width: 750px;
+}
+
+.footer_title {
+  font-size: 88px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0.75;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+.footer_text {
+  font-size: 30px;
+  font-family: "Open Sans";
+  color: #9b8ec1;
+  text-transform: uppercase;
+  line-height: 1.15;
+}
+
+.footer_buttons {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 5;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 160px;
+}
+
+.footer_Download_on_appstore {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 620px;
+  width: 310px;
+  height: 80px;
+  border-radius: 38px;
+  border: none;
+  background-color: #5e42b0;
+}
+
+.footer_app_icon {
+  fill: #ffffff;
+  width: 50px;
+  height: 50px;
+  padding-left: 50px;
+}
+
+.footer_app_text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 145px;
+  padding-right: 50px;
+}
+
+.footer_download_on_the {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer_app_store {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer_Get_on_google_play {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 620px;
+  width: 310px;
+  height: 80px;
+  border-radius: 38px;
+  border: none;
+  background-color: #5e42b0;
+}
+
+.footer_google_icon {
+  fill: #ffffff;
+  width: 50px;
+  height: 50px;
+  padding-left: 50px;
+}
+
+.footer_google_text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 130px;
+  padding-right: 50px;
+}
+
+.footer_get_it_on {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.footer_google_play_ {
+  font-size: 14px;
+  font-family: "Open Sans";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.footer-logo2 {
+  position: relative;
+  z-index: 5;
+  display: block;
+  width: 190px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 265px;
+}
+
+@media (max-width: 640px) {
+  .welcome {
+    background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/football_767.jpg?raw=true");
+    width: 100%;
+    height: 570px;
+  }
+
+  .welcome:after {
+    width: 100%;
+    height: 570px;
+  }
+
+  .container {
+    width: 320px;
+  }
+
+  .header-logo {
+    width: 135px;
+    height: 35px;
+    padding-top: 30px;
+  }
+
+  .first-title {
+    font-size: 28px;
+    width: 280px;
+    line-height: 1.118;
+    text-align: left;
+    margin-top: 145px;
+    margin-bottom: 25px;
+  }
+
+  .second-title {
+    font-size: 28px;
+    width: 280px;
+    padding-left: 65px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .buttons {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Download_on_appstore {
+    margin-top: 85px;
+    margin-left: 0px;
+    width: 280px;
+    height: 35px;
+    border-radius: 15px;
+  }
+
+  .app_icon {
+    width: 25px;
+    height: 25px;
+    padding-left: 80px;
+  }
+
+  .app_text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85px;
+    padding-right: 85px;
+  }
+
+  .download_on_the {
+    font-size: 8px;
+  }
+
+  .app_store {
+    font-size: 8px;
+  }
+
+  .Get_on_google_play {
+    margin-right: 0px;
+    margin-top: 12px;
+    width: 280px;
+    height: 35px;
+    border-radius: 15px;
+  }
+
+  .google_icon {
+    width: 25px;
+    height: 25px;
+    padding-left: 80px;
+  }
+
+  .google_text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85px;
+    padding-right: 85px;
+  }
+
+  .get_it_on {
+    font-size: 8px;
+  }
+
+  .google_play_ {
+    font-size: 8px;
+  }
+
+  .main {
+    width: 320px;
+  }
+
+  .footballer_img {
+    top: 645px;
+    left: 50%;
+    margin-left: -96px;
+  }
+
+  .athlets {
+    font-size: 50px;
+    margin-bottom: 270px;
+    padding-left: 25px;
+    padding-right: 80px;
+  }
+
+  .athlets_header_group {
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 80px;
+  }
+
+  .athlets_item {
+    width: 320px;
+  }
+
+  .athlets_item:after {
+    width: 320px;
+  }
+
+  .athlets_item:last-child:after {
+    width: 320px;
+  }
+
+  .athlets_number {
+    padding-bottom: 4px;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  .athlets_number:after {
+    bottom: 0;
+    width: 15px;
+    height: 4px;
+    border-radius: 4px;
+  }
+
+  .athlets_header {
+    font-size: 23px;
+  }
+
+  .athlets_text {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 80px;
+  }
+
+  .basketballer_img {
+    top: 1750px;
+    left: 50%;
+    margin-left: -151px;
+  }
+
+  .players_content {
+    margin-top: 20px;
+  }
+
+  .players {
+    font-size: 50px;
+    margin-bottom: 270px;
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+
+  .players_header_group {
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 80px;
+  }
+
+  .players_item {
+    width: 320px;
+  }
+
+  .players_item:after {
+    width: 320px;
+  }
+
+  .players_item:last-child:after {
+    width: 320px;
+  }
+
+  .players_number {
+    padding-bottom: 4px;
+    font-size: 14px;
+    margin-right: 5px;
+  }
+
+  .players_number:after {
+    width: 15px;
+    height: 4px;
+    border-radius: 4px;
+  }
+
+  .players_header {
+    font-size: 23px;
+  }
+
+  .players_text {
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 80px;
+  }
+
+  .active_section {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 320px;
+  }
+
+  .active_img {
+    width: 100%;
+  }
+
+  .active_number {
+    left: 50%;
+    margin-left: -140px;
+    top: 3290px;
+    width: 70px;
+    height: 70px;
+    padding-top: 28px;
+  }
+
+  .active_number_one {
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .active_number_one:after {
+    width: 17px;
+    margin-left: 25px;
+  }
+
+  .active_content {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .active_header {
+    padding-top: 30px;
+    font-size: 28px;
+  }
+
+  .active_text {
+    font-size: 16px;
+    padding-top: 25px;
+    width: 230px;
+    padding-bottom: 75px;
+  }
+
+  .contact_section {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 320px;
+  }
+
+  .contact_number {
+    left: 50%;
+    margin-left: -140px;
+    top: 4230px;
+    width: 70px;
+    height: 70px;
+    padding-top: 28px;
+  }
+
+  .contact_number_one {
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .contact_number_one:after {
+    width: 17px;
+    margin-left: 25px;
+  }
+
+  .contact_content {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .contact_header {
+    padding-top: 30px;
+    font-size: 28px;
+  }
+
+  .contact_text {
+    font-size: 16px;
+    padding-top: 25px;
+    width: 230px;
+    padding-bottom: 75px;
+  }
+
+  .contact_img {
+    width: 100%;
+  }
+
+  .work_section {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 320px;
+  }
+
+  .work_number {
+    left: 50%;
+    margin-left: -140px;
+    top: 5170px;
+    width: 70px;
+    height: 70px;
+    padding-top: 28px;
+  }
+
+  .work_number_one {
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+
+  .work_number_one:after {
+    width: 17px;
+    margin-left: 25px;
+  }
+
+  .work_img {
+    width: 100%;
+  }
+
+  .work_content {
+    width: 100%;
+    padding-left: 20px;
+  }
+
+  .work_header {
+    padding-top: 30px;
+    font-size: 28px;
+  }
+
+  .work_text {
+    font-size: 16px;
+    padding-top: 25px;
+    width: 230px;
+    padding-bottom: 70px;
+  }
+
+  .footer {
+    background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/game_767.jpg?raw=true");
+    width: 100%;
+    height: 570px;
+  }
+
+  .footer:after {
+    width: 100%;
+    height: 570px;
+  }
+
+  .footer_container {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+  }
+
+  .footer-logo {
+    width: 70px;
+    height: 70px;
+    background-size: 70px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 60px;
+  }
+
+  .footer_content {
+    width: 280px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer_title {
+    font-size: 32px;
+    padding-bottom: 12px;
+  }
+
+  .footer_text {
+    font-size: 14px;
+  }
+
+  .footer_buttons {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+  }
+
+  .footer_Download_on_appstore {
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 280px;
+    height: 35px;
+    border-radius: 15px;
+  }
+
+  .footer_app_icon {
+    width: 25px;
+    height: 25px;
+    padding-left: 80px;
+  }
+
+  .footer_app_text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85px;
+    padding-right: 85px;
+  }
+
+  .footer_download_on_the {
+    font-size: 8px;
+  }
+
+  .footer_app_store {
+    font-size: 8px;
+  }
+
+  .footer_Get_on_google_play {
+    margin-right: 0px;
+    margin-top: 12px;
+    width: 280px;
+    height: 35px;
+    border-radius: 15px;
+  }
+
+  .footer_google_icon {
+    width: 25px;
+    height: 25px;
+    padding-left: 80px;
+  }
+
+  .footer_google_text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85px;
+    padding-right: 85px;
+  }
+
+  .footer_get_it_on {
+    font-size: 8px;
+  }
+
+  .footer_google_play_ {
+    font-size: 8px;
+  }
+
+  .footer-logo2 {
+    width: 140px;
+    height: 35px;
+    margin-top: 80px;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  .welcome {
+    background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/football_1280.jpg?raw=true");
+    width: 100%;
+    height: 960px;
+  }
+
+  .welcome:after {
+    width: 100%;
+    height: 960px;
+  }
+
+  .container {
+    width: 641px;
+  }
+
+  .header-logo {
+    width: 205px;
+    height: 55px;
+    padding-top: 40px;
+  }
+
+  .first-title {
+    font-size: 64px;
+    width: 595px;
+    line-height: 1.118;
+    text-align: left;
+    margin-top: 180px;
+    margin-bottom: 30px;
+  }
+
+  .second-title {
+    font-size: 64px;
+    width: 595px;
+    padding-left: 92px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .Download_on_appstore {
+    margin-top: 290px;
+    margin-left: 0px;
+  }
+
+  .app_icon {
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+  }
+
+  .app_text {
+    width: 145px;
+    padding-right: 65px;
+  }
+
+  .Get_on_google_play {
+    margin-top: 290px;
+    margin-right: 0px;
+  }
+
+  .google_icon {
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+  }
+
+  .google_text {
+    width: 105px;
+    padding-right: 80px;
+  }
+
+  .main {
+    width: 641px;
+  }
+
+  .footballer_img {
+    top: 1041px;
+    left: -160px;
+  }
+
+  .athlets {
+    font-size: 80px;
+    margin-bottom: 20px;
+    padding-left: 292px;
+    padding-right: 140px;
+  }
+
+  .athlets_header_group {
+    padding-top: 40px;
+    padding-left: 292px;
+    padding-right: 140px;
+  }
+
+  .athlets_item {
+    width: 761px;
+  }
+
+  .athlets_item:after {
+    width: 761px;
+  }
+
+  .athlets_item:last-child:after {
+    width: 761px;
+  }
+
+  .athlets_number {
+    margin-right: 5px;
+  }
+
+  .athlets_header {
+    font-size: 32px;
+  }
+
+  .athlets_text {
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 292px;
+    padding-right: 140px;
+  }
+
+  .basketballer_img {
+    top: 1880px;
+    left: 335px;
+  }
+
+  .players_content {
+    margin-top: 83px;
+  }
+
+  .players {
+    font-size: 80px;
+    margin-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 355px;
+  }
+
+  .players_header_group {
+    padding-top: 40px;
+    padding-left: 32px;
+    padding-right: 355px;
+  }
+
+  .players_item {
+    width: 768px;
+  }
+
+  .players_item:after {
+    width: 768px;
+  }
+
+  .players_item:last-child:after {
+    width: 768px;
+  }
+
+  .players_header {
+    font-size: 32px;
+  }
+
+  .players_text {
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 32px;
+    padding-right: 355px;
+  }
+
+  .active_section {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 768px;
+  }
+
+  .active_img {
+    width: 100%;
+  }
+
+  .active_number {
+    left: 50%;
+    margin-left: -280px;
+    top: 3260px;
+    width: 115px;
+    height: 115px;
+    padding-top: 40px;
+  }
+
+  .active_number_one {
+    padding-bottom: 5px;
+    font-size: 24px;
+  }
+
+  .active_number_one:after {
+    width: 25px;
+    margin-left: 45px;
+  }
+
+  .active_content {
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  .active_header {
+    padding-top: 90px;
+    font-size: 80px;
+  }
+
+  .active_text {
+    font-size: 24px;
+    padding-top: 40px;
+    width: 641px;
+    padding-bottom: 100px;
+  }
+
+  .contact_section {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 768px;
+  }
+
+  .contact_number {
+    left: 50%;
+    margin-left: -280px;
+    top: 4400px;
+    width: 115px;
+    height: 115px;
+    padding-top: 40px;
+  }
+
+  .contact_number_one {
+    padding-bottom: 5px;
+    font-size: 24px;
+  }
+
+  .contact_number_one:after {
+    width: 25px;
+    margin-left: 45px;
+  }
+
+  .contact_content {
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  .contact_header {
+    padding-top: 90px;
+    font-size: 80px;
+  }
+
+  .contact_text {
+    font-size: 24px;
+    padding-top: 40px;
+    width: 641px;
+    padding-bottom: 100px;
+  }
+
+  .contact_img {
+    width: 100%;
+  }
+
+  .work_section {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 761px;
+  }
+
+  .work_number {
+    left: 50%;
+    margin-left: -280px;
+    top: 5540px;
+    width: 115px;
+    height: 115px;
+    padding-top: 40px;
+  }
+
+  .work_number_one {
+    padding-bottom: 5px;
+    font-size: 24px;
+  }
+
+  .work_number_one:after {
+    width: 25px;
+    margin-left: 45px;
+  }
+
+  .work_img {
+    width: 100%;
+  }
+
+  .work_content {
+    width: 100%;
+    padding-left: 35px;
+  }
+
+  .work_header {
+    padding-top: 90px;
+    font-size: 80px;
+  }
+
+  .work_text {
+    font-size: 24px;
+    padding-top: 40px;
+    width: 641px;
+    padding-bottom: 100px;
+  }
+
+  .footer {
+    background-image: url("https://github.com/netology-code/mq-diploma/blob/master/sources/img/game_1280.jpg?raw=true");
+    width: 100%;
+    height: 960px;
+  }
+
+  .footer:after {
+    width: 100%;
+    height: 960px;
+  }
+
+  .footer_container {
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 641px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 125px;
+  }
+
+  .footer-logo {
+    width: 135px;
+    height: 135px;
+    background-size: 70px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 80px;
+  }
+
+  .footer_content {
+    width: 641px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer_title {
+    font-size: 72px;
+    padding-bottom: 25px;
+  }
+
+  .footer_text {
+    font-size: 32px;
+  }
+
+  .footer_buttons {
+    margin-top: 0;
+  }
+
+  .footer_Download_on_appstore {
+    margin-top: 290px;
+    margin-left: 0px;
+  }
+
+  .footer_app_icon {
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+  }
+
+  .footer_app_text {
+    width: 145px;
+    padding-right: 65px;
+  }
+
+  .footer_Get_on_google_play {
+    margin-top: 290px;
+    margin-right: 0px;
+  }
+
+  .footer_google_icon {
+    width: 40px;
+    height: 40px;
+    padding-left: 40px;
+  }
+
+  .footer_google_text {
+    width: 105px;
+    padding-right: 80px;
+  }
+
+  .footer-logo2 {
+    width: 205px;
+    height: 60px;
+    margin-top: 50px;
+  }
+}
